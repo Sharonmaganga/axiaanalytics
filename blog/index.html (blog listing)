@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Blog - AI & Data Analytics Insights | AxiaAnalytics</title>
+    <meta name="description" content="Read the latest insights on AI, machine learning, and data analytics for East African businesses.">
+    
+    <link rel="canonical" href="https://axiaanalytics.com/blog/">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/images/logo.png" alt="AxiaAnalytics">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/contact.html" class="cta-btn">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <main>
+        <section class="blog-hero">
+            <div class="container">
+                <h1>AI & Data Analytics Blog</h1>
+                <p>Stay updated with the latest insights and trends</p>
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <div class="container">
+                <article class="blog-card">
+                    <h2><a href="/blog/ai-consulting-nairobi-guide.html">The Complete Guide to AI Consulting in Nairobi</a></h2>
+                    <p class="meta">Published on May 25, 2026 | 5 min read</p>
+                    <p>Comprehensive guide covering everything you need to know about AI consulting services in Nairobi...</p>
+                    <a href="/blog/ai-consulting-nairobi-guide.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="blog-card">
+                    <h2><a href="/blog/10-ways-ai-transforms-kenyan-businesses.html">10 Ways AI Can Transform Small Businesses in Kenya</a></h2>
+                    <p class="meta">Published on May 23, 2026 | 8 min read</p>
+                    <p>Discover how AI is revolutionizing businesses across Kenya and which implementations can benefit you...</p>
+                    <a href="/blog/10-ways-ai-transforms-kenyan-businesses.html" class="read-more">Read More →</a>
+                </article>
+
+                <!-- Add more blog posts -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
