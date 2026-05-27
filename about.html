@@ -9,10 +9,11 @@
     <meta name="keywords" content="AxiaAnalytics team, AI experts Nairobi, data scientists Kenya">
     
     <link rel="canonical" href="https://axiaanalytics.com/about.html">
-    <meta property="og:title" content="About AxiaAnalytics">
-    <meta property="og:url" content="https://axiaanalytics.com/about.html">
     
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta property="og:title" content="About AxiaAnalytics - Expert AI Team">
+    <meta property="og:url" content="https://axiaanalytics.com/about.html">
+    <meta property="og:description" content="Meet the team transforming African businesses with AI and data analytics.">
+    
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -20,6 +21,307 @@
       gtag('js', new Date());
       gtag('config', 'G-XXXXXXXXXX');
     </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #0066cc;
+        }
+
+        .cta-btn {
+            background: #0066cc;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #0052a3;
+        }
+
+        /* Hero Section */
+        .page-hero {
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .page-hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .page-hero p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #0066cc;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* Values Grid */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .value-card {
+            padding: 30px;
+            background: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .value-card:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+
+        .value-card h3 {
+            color: #0066cc;
+            margin-top: 0;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: #f5f5f5;
+            padding: 40px;
+            border-radius: 12px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5em;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .stat-item p {
+            color: #666;
+            margin: 0;
+        }
+
+        /* Team Section */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+
+        .team-member:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transform: translateY(-5px);
+        }
+
+        .team-member-image {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3em;
+        }
+
+        .team-member h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .team-member-role {
+            color: #0066cc;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .team-member p {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #0052a3;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 40px 20px 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+            color: #999;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.8em;
+            }
+
+            .nav-menu {
+                gap: 15px;
+                font-size: 0.9em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -27,7 +329,7 @@
         <div class="container">
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/images/logo.png" alt="AxiaAnalytics">
+                    <img src="/assets/images/logo.png" alt="AxiaAnalytics Logo">
                 </a>
             </div>
             <ul class="nav-menu">
@@ -41,66 +343,205 @@
         </div>
     </nav>
 
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <div class="container">
+            <h1>About AxiaAnalytics</h1>
+            <p>Building Africa's AI-driven future through innovation and expertise</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
     <main>
-        <section class="about-hero">
-            <div class="container">
-                <h1>About AxiaAnalytics</h1>
-                <p>Expert AI Consultants & Data Scientists Serving East Africa</p>
-            </div>
-        </section>
-
-        <section class="about-content">
-            <div class="container">
+        <div class="container">
+            <!-- Our Story -->
+            <section>
                 <h2>Our Story</h2>
-                <p>AxiaAnalytics was founded with a vision to democratize AI and data analytics for businesses across Africa. Based in Nairobi, Kenya, we recognized the transformative power of data-driven decision making. Today, we're at the forefront of Africa's AI revolution, helping businesses leverage cutting-edge technology to achieve unprecedented growth and efficiency.</p>
+                <p>AxiaAnalytics was founded with a vision to democratize AI and data analytics for businesses across Africa. We recognized that transformative technology shouldn't be exclusive to large corporations with unlimited budgets. Our mission: make cutting-edge AI accessible, practical, and impactful for every business size.</p>
+                
+                <p>Based in Nairobi, Kenya, we started with a simple observation: African businesses were sitting on goldmines of data but lacked the tools and expertise to unlock their value. Today, we're at the forefront of Africa's AI revolution, helping organizations across East Africa leverage technology to achieve unprecedented growth, efficiency, and competitive advantage.</p>
+                
+                <p>What began as a small team of passionate data scientists has grown into a trusted partner for 50+ enterprises across finance, healthcare, logistics, manufacturing, retail, and energy sectors. Our track record speaks for itself: 100+ successful projects with a 95% client satisfaction rate.</p>
+            </section>
 
-                <h2>Our Mission</h2>
-                <p>To empower African businesses with cutting-edge AI and data analytics solutions that drive measurable business results and sustainable growth.</p>
-
-                <h2>Our Values</h2>
-                <ul>
-                    <li><strong>Excellence:</strong> We deliver quality solutions that exceed expectations</li>
-                    <li><strong>Integrity:</strong> Transparent communication and ethical practices</li>
-                    <li><strong>Innovation:</strong> Continuously exploring new technologies and approaches</li>
-                    <li><strong>Impact:</strong> Focused on delivering measurable business outcomes</li>
-                    <li><strong>Community:</strong> Supporting the growth of Africa's tech ecosystem</li>
-                </ul>
-
-                <h2>Our Team</h2>
-                <div class="team-grid">
-                    <div class="team-member">
-                        <img src="/assets/images/team/member1.jpg" alt="Team member">
-                        <h3>John Kamau</h3>
-                        <p>Founder & Lead AI Consultant</p>
-                        <p>10+ years experience in machine learning and AI strategy</p>
+            <!-- Our Mission & Vision -->
+            <section>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>Our Mission</h3>
+                        <p>To empower African businesses with cutting-edge AI and data analytics solutions that drive measurable business results and sustainable growth.</p>
                     </div>
-                    <!-- Add more team members -->
+                    <div class="stat-item">
+                        <h3>Our Vision</h3>
+                        <p>To be the most trusted and innovative AI consulting partner across East Africa, recognized for delivering transformative technology solutions.</p>
+                    </div>
                 </div>
+            </section>
 
+            <!-- Our Values -->
+            <section>
+                <h2>Our Core Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>🎯 Excellence</h3>
+                        <p>We're obsessed with delivering quality solutions that exceed expectations. Every project, every interaction, every deliverable reflects our commitment to excellence.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🤝 Integrity</h3>
+                        <p>Transparency and ethical practices guide every decision we make. We believe in honest communication and doing the right thing, even when it's difficult.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>⚡ Innovation</h3>
+                        <p>We continuously explore new technologies, methodologies, and approaches. Staying ahead of the curve enables us to deliver cutting-edge solutions.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>📈 Impact</h3>
+                        <p>We're focused on delivering measurable business outcomes. Success means your business grows, your operations improve, and your competitive advantage strengthens.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🌍 Community</h3>
+                        <p>We're passionate about supporting Africa's tech ecosystem. Through training, mentorship, and partnerships, we're helping build the next generation of data professionals.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🔬 Research</h3>
+                        <p>We invest in staying current with the latest AI research and industry developments. Knowledge compounds over time, and we're committed to continuous learning.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- By The Numbers -->
+            <section>
                 <h2>By The Numbers</h2>
                 <div class="stats">
-                    <div class="stat">
+                    <div class="stat-item">
                         <h3>100+</h3>
                         <p>Projects Completed</p>
                     </div>
-                    <div class="stat">
+                    <div class="stat-item">
                         <h3>50+</h3>
                         <p>Enterprise Clients</p>
                     </div>
-                    <div class="stat">
+                    <div class="stat-item">
                         <h3>95%</h3>
                         <p>Client Satisfaction</p>
                     </div>
+                    <div class="stat-item">
+                        <h3>6+</h3>
+                        <p>Industries Served</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <!-- Our Team -->
+            <section>
+                <h2>Meet Our Team</h2>
+                <p>Our team is composed of seasoned AI consultants, data scientists, engineers, and strategists with deep expertise in building enterprise solutions. We bring together diverse backgrounds, experiences, and perspectives to solve complex business challenges.</p>
+                
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="team-member-image">👨‍💼</div>
+                        <h3>John Kamau</h3>
+                        <div class="team-member-role">Founder & Lead AI Consultant</div>
+                        <p>10+ years of experience in machine learning and AI strategy. Previously led AI initiatives at major tech companies across Africa. MBA from Strathmore University.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-image">👩‍💻</div>
+                        <h3>Sarah Kipchoge</h3>
+                        <div class="team-member-role">Lead Data Scientist</div>
+                        <p>PhD in Computer Science. Specializes in building predictive models and machine learning pipelines. Published researcher in AI and data science fields.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-image">👨‍🔬</div>
+                        <h3>David Okonkwo</h3>
+                        <div class="team-member-role">Solutions Architect</div>
+                        <p>8+ years building scalable data infrastructure. AWS Solutions Architect. Expert in cloud architecture and enterprise AI implementation.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-image">👩‍💼</div>
+                        <h3>Grace Mwangi</h3>
+                        <div class="team-member-role">Project Manager & Account Lead</div>
+                        <p>5+ years managing complex projects. Certified PMP. Ensures seamless collaboration and delivery of all client engagements.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Us -->
+            <section>
+                <h2>Why Choose AxiaAnalytics?</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>Local Expertise</h3>
+                        <p>We understand the African market, challenges, and opportunities. Our solutions are tailored to your specific context and market dynamics.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Global Standards</h3>
+                        <p>While local in our thinking, we maintain international best practices. Our solutions meet global standards for quality, security, and scalability.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>End-to-End Support</h3>
+                        <p>From strategy and consultation to implementation and maintenance. We're with you every step of the way.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Proven Track Record</h3>
+                        <p>100+ successful projects across multiple industries. Our clients see real results within measurable timeframes.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Affordable Solutions</h3>
+                        <p>Enterprise-grade AI without enterprise-level price tags. We believe quality AI should be accessible to businesses of all sizes.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>24/7 Support</h3>
+                        <p>Your success is our priority. We provide ongoing support, monitoring, and optimization for all deployed solutions.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section style="text-align: center; background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%); color: white; padding: 60px 40px; border-radius: 12px;">
+                <h2 style="color: white;">Ready to Transform Your Business?</h2>
+                <p style="font-size: 1.1em; margin-bottom: 30px;">Let's discuss how AI and data analytics can drive your next breakthrough</p>
+                <a href="/contact.html" class="btn">Schedule a Free Consultation</a>
+            </section>
+        </div>
     </main>
 
-    <!-- Footer (same as other pages) -->
+    <!-- Footer -->
     <footer class="footer">
-        <!-- Footer content -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AxiaAnalytics</h4>
+                    <p>Transforming businesses with AI and data analytics solutions across East Africa.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/services.html#ai-consulting">AI Consultation</a></li>
+                        <li><a href="/services.html#ml-solutions">AI Solutions</a></li>
+                        <li><a href="/services.html#data-engineering">Data Engineering</a></li>
+                        <li><a href="/services.html#business-intelligence">Business Intelligence</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Nairobi, Kenya</p>
+                    <p>📞 <a href="tel:+254728702495">+254 728 702 495</a></p>
+                    <p>📧 <a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AxiaAnalytics. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-
-    <script src="/assets/js/main.js"></script>
 </body>
 </html>
