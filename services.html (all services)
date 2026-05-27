@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AI & Data Analytics Services in Nairobi | AxiaAnalytics</title>
+    <meta name="description" content="Comprehensive AI consulting, machine learning, data engineering, and business intelligence services in Kenya. Custom solutions for finance, healthcare, logistics, and manufacturing sectors.">
+    <meta name="keywords" content="AI services Nairobi, data analytics services Kenya, machine learning consulting, business intelligence">
+    
+    <link rel="canonical" href="https://axiaanalytics.com/services.html">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "AI & Data Analytics Consulting",
+      "provider": {
+        "@type": "Organization",
+        "name": "AxiaAnalytics"
+      },
+      "areaServed": { "@type": "Place", "name": "Kenya" }
+    }
+    </script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <!-- Navigation & Main Content -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/images/logo.png" alt="AxiaAnalytics">
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/contact.html" class="cta-btn">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <main>
+        <section class="services-hero">
+            <div class="container">
+                <h1>AI & Data Analytics Services</h1>
+                <p>Comprehensive solutions designed to accelerate your digital transformation</p>
+            </div>
+        </section>
+
+        <section class="services-list">
+            <div class="container">
+                <article id="ai-consulting" class="service-detail">
+                    <h2>👥 AI Expert Consultation</h2>
+                    <p>Strategic guidance, roadmapping, and feasibility studies from industry-leading AI veterans.</p>
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>AI Strategy Assessment</li>
+                        <li>Technology Roadmapping</li>
+                        <li>Feasibility Studies</li>
+                        <li>Implementation Planning</li>
+                    </ul>
+                    <a href="/contact.html" class="btn">Request Consultation</a>
+                </article>
+
+                <article id="ml-solutions" class="service-detail">
+                    <h2>🤖 AI Optimized Solutions</h2>
+                    <p>Development and deployment of custom AI agents and intelligent workflow automation systems.</p>
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>Custom AI Agent Development</li>
+                        <li>Workflow Automation</li>
+                        <li>Chatbots & Virtual Assistants</li>
+                        <li>Intelligent Process Automation</li>
+                    </ul>
+                    <a href="/contact.html" class="btn">Request Consultation</a>
+                </article>
+
+                <article id="data-engineering" class="service-detail">
+                    <h2>🛠️ Data Engineering & Strategy</h2>
+                    <p>Build robust data pipelines and scalable cloud architecture.</p>
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>Data Pipeline Design</li>
+                        <li>Cloud Architecture (AWS, Azure, GCP)</li>
+                        <li>ETL/ELT Development</li>
+                        <li>Data Quality Management</li>
+                    </ul>
+                    <a href="/contact.html" class="btn">Request Consultation</a>
+                </article>
+
+                <article id="business-intelligence" class="service-detail">
+                    <h2>📊 Business Intelligence & Visualization</h2>
+                    <p>Interactive dashboards and real-time analytics.</p>
+                    <h3>What We Offer:</h3>
+                    <ul>
+                        <li>BI Dashboard Development</li>
+                        <li>Real-time Analytics</li>
+                        <li>Data Visualization</li>
+                        <li>KPI Monitoring</li>
+                    </ul>
+                    <a href="/contact.html" class="btn">Request Consultation</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
