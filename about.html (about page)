@@ -4,51 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Homepage SEO -->
-    <title>AI & Data Analytics Consulting in Nairobi | AxiaAnalytics Kenya</title>
-    <meta name="description" content="Leading AI consulting and data analytics firm in Nairobi, Kenya. We provide machine learning, predictive analytics, and data engineering services to transform East African businesses. 50+ clients, 95% success rate.">
-    <meta name="keywords" content="AI consulting Nairobi, data analytics Kenya, machine learning services, business intelligence Nairobi">
-    <meta name="author" content="AxiaAnalytics">
-    <meta name="robots" content="index, follow">
+    <title>About AxiaAnalytics - Expert AI Team in Nairobi, Kenya</title>
+    <meta name="description" content="Meet the AxiaAnalytics team. Expert AI consultants and data scientists serving East Africa. Learn about our mission to democratize AI across African businesses.">
+    <meta name="keywords" content="AxiaAnalytics team, AI experts Nairobi, data scientists Kenya">
     
-    <link rel="canonical" href="https://axiaanalytics.com/">
+    <link rel="canonical" href="https://axiaanalytics.com/about.html">
+    <meta property="og:title" content="About AxiaAnalytics">
+    <meta property="og:url" content="https://axiaanalytics.com/about.html">
     
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://axiaanalytics.com/">
-    <meta property="og:title" content="AI & Data Analytics Consulting in Nairobi | AxiaAnalytics">
-    <meta property="og:description" content="Transform your business with cutting-edge AI solutions. Leading data analytics firm in Kenya with 100+ projects completed.">
-    <meta property="og:image" content="https://axiaanalytics.com/assets/images/og-image.jpg">
-    
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI & Data Analytics Consulting in Nairobi">
-    <meta name="twitter:description" content="Leading AI consulting firm in Kenya. 100+ projects, 50+ clients, 95% success rate.">
-    <meta name="twitter:image" content="https://axiaanalytics.com/assets/images/twitter-card.jpg">
-    
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
-    
-    <!-- Organization Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "AxiaAnalytics",
-      "url": "https://axiaanalytics.com",
-      "logo": "https://axiaanalytics.com/assets/images/logo.png",
-      "email": "Axiaanalyticsglobal@gmail.com",
-      "telephone": "+254728702495",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Nairobi",
-        "addressCountry": "KE"
-      },
-      "sameAs": [
-        "https://instagram.com/AxiaAnalytics",
-        "https://linkedin.com/company/AxiaAnalytics"
-      ]
-    }
-    </script>
-    
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -78,133 +42,63 @@
     </nav>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
+        <section class="about-hero">
             <div class="container">
-                <h1>AI Consulting & Data Analytics Services in Nairobi, Kenya</h1>
-                <p>Transform your business with cutting-edge AI solutions. 100+ projects completed, 50+ clients, 95% success rate.</p>
-                <div class="hero-ctas">
-                    <a href="/contact.html" class="btn btn-primary">Schedule Free Consultation</a>
-                    <a href="/services.html" class="btn btn-secondary">View Our Services</a>
-                </div>
+                <h1>About AxiaAnalytics</h1>
+                <p>Expert AI Consultants & Data Scientists Serving East Africa</p>
             </div>
         </section>
 
-        <!-- Services Preview -->
-        <section class="services-preview">
+        <section class="about-content">
             <div class="container">
-                <h2>Our Core Services</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>AI Expert Consultation</h3>
-                        <p>Strategic guidance and roadmapping from industry-leading AI veterans.</p>
-                        <a href="/services.html#ai-consulting">Learn More →</a>
-                    </div>
-                    <div class="service-card">
-                        <h3>Machine Learning Solutions</h3>
-                        <p>Custom ML models and intelligent workflow automation systems.</p>
-                        <a href="/services.html#ml-solutions">Learn More →</a>
-                    </div>
-                    <div class="service-card">
-                        <h3>Data Engineering</h3>
-                        <p>Build robust data pipelines and scalable cloud architecture.</p>
-                        <a href="/services.html#data-engineering">Learn More →</a>
-                    </div>
-                    <div class="service-card">
-                        <h3>Business Intelligence</h3>
-                        <p>Interactive dashboards and real-time analytics for data-driven decisions.</p>
-                        <a href="/services.html#business-intelligence">Learn More →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <h2>Our Story</h2>
+                <p>AxiaAnalytics was founded with a vision to democratize AI and data analytics for businesses across Africa. Based in Nairobi, Kenya, we recognized the transformative power of data-driven decision making. Today, we're at the forefront of Africa's AI revolution, helping businesses leverage cutting-edge technology to achieve unprecedented growth and efficiency.</p>
 
-        <!-- Stats Section -->
-        <section class="stats">
-            <div class="container">
-                <div class="stat">
-                    <h3>100+</h3>
-                    <p>Projects Completed</p>
-                </div>
-                <div class="stat">
-                    <h3>50+</h3>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="stat">
-                    <h3>95%</h3>
-                    <p>Success Rate</p>
-                </div>
-                <div class="stat">
-                    <h3>24/7</h3>
-                    <p>Support</p>
-                </div>
-            </div>
-        </section>
+                <h2>Our Mission</h2>
+                <p>To empower African businesses with cutting-edge AI and data analytics solutions that drive measurable business results and sustainable growth.</p>
 
-        <!-- Testimonials -->
-        <section class="testimonials">
-            <div class="container">
-                <h2>What Our Clients Say</h2>
-                <div class="testimonials-grid">
-                    <blockquote class="testimonial">
-                        <p>"AxiaAnalytics helped us reduce customer churn by 27% using predictive models. The ROI was evident within 3 months."</p>
-                        <footer>— Jane Kipchoge, CTO at TechCorp Kenya</footer>
-                    </blockquote>
-                    <blockquote class="testimonial">
-                        <p>"Their data engineering expertise transformed our operations. We now have real-time dashboards that drive decision making."</p>
-                        <footer>— David Okonkwo, Operations Manager at Logistics Ltd</footer>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Excellence:</strong> We deliver quality solutions that exceed expectations</li>
+                    <li><strong>Integrity:</strong> Transparent communication and ethical practices</li>
+                    <li><strong>Innovation:</strong> Continuously exploring new technologies and approaches</li>
+                    <li><strong>Impact:</strong> Focused on delivering measurable business outcomes</li>
+                    <li><strong>Community:</strong> Supporting the growth of Africa's tech ecosystem</li>
+                </ul>
 
-        <!-- CTA -->
-        <section class="cta">
-            <div class="container">
-                <h2>Ready to Transform Your Business?</h2>
-                <p>Let's discuss how AI and data analytics can drive your next breakthrough</p>
-                <a href="/contact.html" class="btn btn-primary">Schedule Free Consultation</a>
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="/assets/images/team/member1.jpg" alt="Team member">
+                        <h3>John Kamau</h3>
+                        <p>Founder & Lead AI Consultant</p>
+                        <p>10+ years experience in machine learning and AI strategy</p>
+                    </div>
+                    <!-- Add more team members -->
+                </div>
+
+                <h2>By The Numbers</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Enterprise Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer (same as other pages) -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>AxiaAnalytics</h4>
-                    <p>Transforming businesses with AI and data analytics solutions.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="/services.html#ai-consulting">AI Consultation</a></li>
-                        <li><a href="/services.html#ml-solutions">AI Solutions</a></li>
-                        <li><a href="/services.html#data-engineering">Data Engineering</a></li>
-                        <li><a href="/services.html#business-intelligence">Business Intelligence</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about.html">About Us</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>📍 Nairobi, Kenya</p>
-                    <p>📞 <a href="tel:+254728702495">+254 728 702 495</a></p>
-                    <p>📧 <a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 AxiaAnalytics. All rights reserved.</p>
-            </div>
-        </div>
+        <!-- Footer content -->
     </footer>
 
     <script src="/assets/js/main.js"></script>
