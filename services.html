@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>AI & Data Analytics Services in Nairobi | AxiaAnalytics</title>
-    <meta name="description" content="Comprehensive AI consulting, machine learning, data engineering, and business intelligence services in Kenya. Custom solutions for finance, healthcare, logistics, and manufacturing sectors.">
+    <meta name="description" content="Comprehensive AI consulting, machine learning, data engineering, and business intelligence services in Kenya. Custom solutions for finance, healthcare, logistics, manufacturing sectors.">
     <meta name="keywords" content="AI services Nairobi, data analytics services Kenya, machine learning consulting, business intelligence">
     
     <link rel="canonical" href="https://axiaanalytics.com/services.html">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <meta property="og:title" content="AI & Data Analytics Services in Nairobi | AxiaAnalytics">
+    <meta property="og:url" content="https://axiaanalytics.com/services.html">
+    <meta property="og:description" content="Custom AI consulting, ML development, data engineering, and BI solutions for East African businesses.">
     
     <!-- Service Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
+      "@id": "https://axiaanalytics.com/services.html",
       "serviceType": "AI & Data Analytics Consulting",
       "provider": {
         "@type": "Organization",
-        "name": "AxiaAnalytics"
+        "name": "AxiaAnalytics",
+        "url": "https://axiaanalytics.com"
       },
-      "areaServed": { "@type": "Place", "name": "Kenya" }
+      "areaServed": { "@type": "Place", "name": "Kenya" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Expert Consultation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Machine Learning Solutions" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Data Engineering" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Intelligence" } }
+        ]
+      }
     }
     </script>
-    
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -32,14 +47,368 @@
       gtag('js', new Date());
       gtag('config', 'G-XXXXXXXXXX');
     </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #0066cc;
+        }
+
+        .cta-btn {
+            background: #0066cc;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #0052a3;
+        }
+
+        /* Hero Section */
+        .page-hero {
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .page-hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .page-hero p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+            color: #0066cc;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .service-card {
+            padding: 40px;
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .service-card:hover {
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            transform: translateY(-10px);
+            border-color: #0066cc;
+        }
+
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Service Details */
+        .service-detail {
+            background: #f9f9f9;
+            padding: 50px 40px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .service-detail h2 {
+            margin-bottom: 30px;
+        }
+
+        .service-detail h3 {
+            color: #0066cc;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .service-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .feature h4 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            color: #666;
+            margin: 0;
+        }
+
+        /* Why Choose */
+        .why-choose {
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 12px;
+            margin: 60px 0;
+        }
+
+        .why-choose h2 {
+            color: white;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .why-item {
+            text-align: center;
+        }
+
+        .why-item-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .why-item h4 {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .why-item p {
+            margin: 0;
+            opacity: 0.95;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #0052a3;
+        }
+
+        .btn-white {
+            background: white;
+            color: #0066cc;
+        }
+
+        .btn-white:hover {
+            background: #f0f0f0;
+        }
+
+        /* Tech Stack */
+        .tech-stack {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .tech-stack h4 {
+            margin-bottom: 15px;
+            color: #0066cc;
+        }
+
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .badge {
+            background: #0066cc;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 40px 20px 20px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+            color: #999;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.8em;
+            }
+
+            .service-detail {
+                padding: 30px 20px;
+            }
+
+            .nav-menu {
+                gap: 15px;
+                font-size: 0.9em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation & Main Content -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/images/logo.png" alt="AxiaAnalytics">
+                    <img src="/assets/images/logo.png" alt="AxiaAnalytics Logo">
                 </a>
             </div>
             <ul class="nav-menu">
@@ -53,76 +422,343 @@
         </div>
     </nav>
 
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Comprehensive AI & Data Solutions Designed to Accelerate Your Digital Transformation</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
     <main>
-        <section class="services-hero">
-            <div class="container">
-                <h1>AI & Data Analytics Services</h1>
-                <p>Comprehensive solutions designed to accelerate your digital transformation</p>
-            </div>
-        </section>
+        <div class="container">
+            <!-- Services Overview -->
+            <section>
+                <h2>What We Offer</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">👥</div>
+                        <h3>AI Expert Consultation</h3>
+                        <p>Strategic guidance and roadmapping from industry-leading AI veterans to help you navigate the complex landscape of artificial intelligence.</p>
+                        <a href="#ai-consulting" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI Optimized Solutions</h3>
+                        <p>Custom AI agents and intelligent workflow automation systems tailored to your business needs.</p>
+                        <a href="#ml-solutions" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>AI Strategy Development</h3>
+                        <p>Creating clear, business-aligned strategies for AI adoption that ensure maximum ROI and sustainable value realization.</p>
+                        <a href="#ai-strategy" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛠️</div>
+                        <h3>AI Implementation Support</h3>
+                        <p>Hands-on technical assistance for seamless integration of AI models and systems into your existing infrastructure.</p>
+                        <a href="#ai-implementation" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🧠</div>
+                        <h3>Predictive Analytics & ML</h3>
+                        <p>Custom machine learning models and predictive analytics for forecasting, risk assessment, and strategic decision-making.</p>
+                        <a href="#predictive-analytics" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📊</div>
+                        <h3>Data Engineering & Strategy</h3>
+                        <p>Build robust data pipelines, design scalable cloud architecture, and establish data governance frameworks.</p>
+                        <a href="#data-engineering" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Business Intelligence & Visualization</h3>
+                        <p>Interactive dashboards, real-time analytics, and actionable insights that drive data-informed decision-making.</p>
+                        <a href="#business-intelligence" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚖️</div>
+                        <h3>AI Ethics & Governance</h3>
+                        <p>Developing comprehensive policies and frameworks for responsible, fair, and transparent AI implementation.</p>
+                        <a href="#ai-ethics" class="btn">Learn More</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud Data Migration</h3>
+                        <p>Seamlessly migrate your data to cloud platforms (AWS, Azure, GCP) with minimal disruption and maximum security.</p>
+                        <a href="#cloud-migration" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </section>
 
-        <section class="services-list">
-            <div class="container">
-                <article id="ai-consulting" class="service-detail">
+            <!-- Service Details -->
+            <section>
+                <h2 style="margin-top: 80px; margin-bottom: 40px;">Detailed Service Offerings</h2>
+
+                <!-- AI Consulting -->
+                <div id="ai-consulting" class="service-detail">
                     <h2>👥 AI Expert Consultation</h2>
-                    <p>Strategic guidance, roadmapping, and feasibility studies from industry-leading AI veterans.</p>
-                    <h3>What We Offer:</h3>
-                    <ul>
-                        <li>AI Strategy Assessment</li>
-                        <li>Technology Roadmapping</li>
-                        <li>Feasibility Studies</li>
-                        <li>Implementation Planning</li>
-                    </ul>
-                    <a href="/contact.html" class="btn">Request Consultation</a>
-                </article>
+                    <p>Navigate the complex landscape of artificial intelligence with expert guidance from seasoned AI veterans. Our consultation services provide strategic direction, feasibility studies, and implementation roadmaps tailored to your unique business context.</p>
+                    
+                    <h3>What's Included:</h3>
+                    <div class="service-features">
+                        <div class="feature">
+                            <h4>AI Readiness Assessment</h4>
+                            <p>Evaluate your organization's current capabilities and identify readiness for AI adoption.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Strategic Roadmapping</h4>
+                            <p>Develop a phased implementation plan aligned with your business objectives.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Technology Stack Selection</h4>
+                            <p>Recommend optimal tools and platforms for your specific use cases.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Feasibility Studies</h4>
+                            <p>Analyze technical and financial feasibility of proposed AI initiatives.</p>
+                        </div>
+                    </div>
 
-                <article id="ml-solutions" class="service-detail">
-                    <h2>🤖 AI Optimized Solutions</h2>
-                    <p>Development and deployment of custom AI agents and intelligent workflow automation systems.</p>
-                    <h3>What We Offer:</h3>
-                    <ul>
-                        <li>Custom AI Agent Development</li>
-                        <li>Workflow Automation</li>
-                        <li>Chatbots & Virtual Assistants</li>
-                        <li>Intelligent Process Automation</li>
-                    </ul>
+                    <h3>Ideal For:</h3>
+                    <p>Organizations beginning their AI journey, C-level executives exploring AI opportunities, teams evaluating AI adoption strategies, and enterprises planning large-scale AI transformations.</p>
+                    
                     <a href="/contact.html" class="btn">Request Consultation</a>
-                </article>
+                </div>
 
-                <article id="data-engineering" class="service-detail">
-                    <h2>🛠️ Data Engineering & Strategy</h2>
-                    <p>Build robust data pipelines and scalable cloud architecture.</p>
-                    <h3>What We Offer:</h3>
-                    <ul>
-                        <li>Data Pipeline Design</li>
-                        <li>Cloud Architecture (AWS, Azure, GCP)</li>
-                        <li>ETL/ELT Development</li>
-                        <li>Data Quality Management</li>
-                    </ul>
-                    <a href="/contact.html" class="btn">Request Consultation</a>
-                </article>
+                <!-- ML Solutions -->
+                <div id="ml-solutions" class="service-detail">
+                    <h2>🤖 Machine Learning Solutions</h2>
+                    <p>Custom-built machine learning solutions designed to solve your specific business problems. From predictive models to intelligent automation systems, we develop and deploy AI that delivers measurable results.</p>
+                    
+                    <h3>What's Included:</h3>
+                    <div class="service-features">
+                        <div class="feature">
+                            <h4>Custom Model Development</h4>
+                            <p>Build proprietary ML models optimized for your unique data and business context.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>AI Agents & Automation</h4>
+                            <p>Develop intelligent systems that automate complex workflows and decision-making processes.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Computer Vision Solutions</h4>
+                            <p>Image recognition, object detection, and visual analytics for quality control and insights.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Natural Language Processing</h4>
+                            <p>Text analysis, sentiment analysis, and conversational AI solutions.</p>
+                        </div>
+                    </div>
 
-                <article id="business-intelligence" class="service-detail">
-                    <h2>📊 Business Intelligence & Visualization</h2>
-                    <p>Interactive dashboards and real-time analytics.</p>
-                    <h3>What We Offer:</h3>
-                    <ul>
-                        <li>BI Dashboard Development</li>
-                        <li>Real-time Analytics</li>
-                        <li>Data Visualization</li>
-                        <li>KPI Monitoring</li>
-                    </ul>
-                    <a href="/contact.html" class="btn">Request Consultation</a>
-                </article>
+                    <h3>Technologies We Use:</h3>
+                    <div class="tech-stack">
+                        <div class="tech-badges">
+                            <span class="badge">Python</span>
+                            <span class="badge">TensorFlow</span>
+                            <span class="badge">PyTorch</span>
+                            <span class="badge">Scikit-learn</span>
+                            <span class="badge">Keras</span>
+                            <span class="badge">XGBoost</span>
+                        </div>
+                    </div>
+
+                    <a href="/contact.html" class="btn">Get Started</a>
+                </div>
+
+                <!-- Data Engineering -->
+                <div id="data-engineering" class="service-detail">
+                    <h2>🛠️ Data Engineering & Architecture</h2>
+                    <p>Build the data foundation your organization needs. From designing scalable data pipelines to establishing cloud infrastructure, we ensure your data systems support growth and analytics.</p>
+                    
+                    <h3>What's Included:</h3>
+                    <div class="service-features">
+                        <div class="feature">
+                            <h4>Data Pipeline Design</h4>
+                            <p>Build ETL/ELT pipelines that reliably collect, transform, and load your data.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Cloud Architecture</h4>
+                            <p>Design scalable, secure infrastructure on AWS, Azure, or GCP.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Data Warehousing</h4>
+                            <p>Establish data warehouses optimized for analytics and reporting.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Data Quality Management</h4>
+                            <p>Implement governance frameworks ensuring data accuracy and compliance.</p>
+                        </div>
+                    </div>
+
+                    <h3>Cloud Platforms:</h3>
+                    <div class="tech-stack">
+                        <div class="tech-badges">
+                            <span class="badge">AWS</span>
+                            <span class="badge">Azure</span>
+                            <span class="badge">Google Cloud</span>
+                            <span class="badge">Snowflake</span>
+                            <span class="badge">BigQuery</span>
+                        </div>
+                    </div>
+
+                    <a href="/contact.html" class="btn">Schedule Consultation</a>
+                </div>
+
+                <!-- Business Intelligence -->
+                <div id="business-intelligence" class="service-detail">
+                    <h2>📈 Business Intelligence & Visualization</h2>
+                    <p>Transform raw data into actionable insights. We create interactive dashboards and visualization systems that empower teams to make data-driven decisions in real-time.</p>
+                    
+                    <h3>What's Included:</h3>
+                    <div class="service-features">
+                        <div class="feature">
+                            <h4>Dashboard Development</h4>
+                            <p>Create interactive, real-time dashboards for monitoring KPIs and metrics.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Data Visualization</h4>
+                            <p>Transform complex data into compelling, easy-to-understand visuals.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Self-Service Analytics</h4>
+                            <p>Enable business users to explore data and generate insights independently.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Reporting & Analytics</h4>
+                            <p>Automated reporting systems delivering insights to stakeholders.</p>
+                        </div>
+                    </div>
+
+                    <h3>Platforms & Tools:</h3>
+                    <div class="tech-stack">
+                        <div class="tech-badges">
+                            <span class="badge">Power BI</span>
+                            <span class="badge">Tableau</span>
+                            <span class="badge">Looker</span>
+                            <span class="badge">QlikView</span>
+                        </div>
+                    </div>
+
+                    <a href="/contact.html" class="btn">View Samples</a>
+                </div>
+
+                <!-- Predictive Analytics -->
+                <div id="predictive-analytics" class="service-detail">
+                    <h2>🧠 Predictive Analytics & Forecasting</h2>
+                    <p>Look beyond today's data to predict tomorrow's outcomes. Our predictive models help you anticipate market trends, customer behavior, and business risks.</p>
+                    
+                    <h3>Use Cases:</h3>
+                    <div class="service-features">
+                        <div class="feature">
+                            <h4>Sales Forecasting</h4>
+                            <p>Predict future sales and revenue with accuracy.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Customer Churn Prediction</h4>
+                            <p>Identify at-risk customers before they leave.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Demand Forecasting</h4>
+                            <p>Optimize inventory and supply chain with accurate demand predictions.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>Risk Assessment</h4>
+                            <p>Quantify and manage business, credit, and operational risks.</p>
+                        </div>
+                    </div>
+
+                    <a href="/contact.html" class="btn">Discuss Your Needs</a>
+                </div>
+
+            </section>
+
+            <!-- Why Choose Us -->
+            <div class="why-choose">
+                <h2>Why Choose AxiaAnalytics?</h2>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-item-icon">✓</div>
+                        <h4>Local Expertise</h4>
+                        <p>Deep understanding of African markets and business contexts</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-item-icon">🌍</div>
+                        <h4>Global Standards</h4>
+                        <p>Enterprise-grade solutions meeting international best practices</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-item-icon">⭐</div>
+                        <h4>Proven Track Record</h4>
+                        <p>100+ successful projects, 95% client satisfaction</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-item-icon">💰</div>
+                        <h4>Affordable Solutions</h4>
+                        <p>Enterprise AI without enterprise-level price tags</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-item-icon">🔧</div>
+                        <h4>End-to-End Support</h4>
+                        <p>From strategy to implementation to ongoing support</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-item-icon">🚀</div>
+                        <h4>Measurable Results</h4>
+                        <p>Solutions delivering real business impact and ROI</p>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <!-- CTA -->
+            <section style="text-align: center; margin-top: 60px;">
+                <h2>Ready to Transform Your Business?</h2>
+                <p style="font-size: 1.1em; color: #666; margin-bottom: 30px;">Let's discuss which services are right for your organization</p>
+                <a href="/contact.html" class="btn">Schedule a Free Consultation</a>
+            </section>
+        </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- Footer content -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AxiaAnalytics</h4>
+                    <p>Transforming businesses with AI and data analytics solutions across East Africa.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/services.html#ai-consulting">AI Consultation</a></li>
+                        <li><a href="/services.html#ml-solutions">AI Solutions</a></li>
+                        <li><a href="/services.html#data-engineering">Data Engineering</a></li>
+                        <li><a href="/services.html#business-intelligence">Business Intelligence</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Nairobi, Kenya</p>
+                    <p>📞 <a href="tel:+254728702495">+254 728 702 495</a></p>
+                    <p>📧 <a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AxiaAnalytics. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-
-    <script src="/assets/js/main.js"></script>
 </body>
 </html>
