@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Blog - AI & Data Analytics Insights | AxiaAnalytics</title>
-    <meta name="description" content="Read the latest insights on AI, machine learning, and data analytics for East African businesses.">
+    <meta name="description" content="Read the latest insights on AI, machine learning, and data analytics for East African businesses. Expert analysis, case studies, and practical guides.">
+    <meta name="keywords" content="AI blog, data analytics articles, machine learning insights, business intelligence guides">
     
     <link rel="canonical" href="https://axiaanalytics.com/blog/">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <meta property="og:title" content="Blog - AI & Data Analytics Insights | AxiaAnalytics">
+    <meta property="og:url" content="https://axiaanalytics.com/blog/">
+    <meta property="og:description" content="Expert articles on AI, machine learning, and data analytics for East African businesses.">
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -17,13 +21,390 @@
       gtag('js', new Date());
       gtag('config', 'G-XXXXXXXXXX');
     </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #0066cc;
+        }
+
+        .cta-btn {
+            background: #0066cc;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #0052a3;
+        }
+
+        /* Hero Section */
+        .page-hero {
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .page-hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .page-hero p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+            color: #0066cc;
+        }
+
+        /* Blog Grid */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+            transform: translateY(-8px);
+        }
+
+        .blog-card-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            color: white;
+        }
+
+        .blog-card-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .blog-date {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog-reading-time {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog-category {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #0066cc;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 12px;
+            width: fit-content;
+        }
+
+        .blog-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .blog-card p {
+            color: #666;
+            margin-bottom: 20px;
+            flex-grow: 1;
+            line-height: 1.7;
+        }
+
+        .blog-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .blog-tag {
+            background: #f5f5f5;
+            color: #0066cc;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .blog-tag:hover {
+            background: #0066cc;
+            color: white;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .read-more:hover {
+            color: #0052a3;
+            transform: translateX(5px);
+        }
+
+        /* Filters */
+        .blog-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 8px 20px;
+            border: 2px solid #0066cc;
+            background: white;
+            color: #0066cc;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #0066cc;
+            color: white;
+        }
+
+        /* Featured Post */
+        .featured-post {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+
+        .featured-post-image {
+            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4em;
+            color: white;
+        }
+
+        .featured-post-content h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .featured-post-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .featured-post-content p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0052a3;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 40px 20px 20px;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+            color: #999;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-hero h1 {
+                font-size: 1.8em;
+            }
+
+            .nav-menu {
+                gap: 15px;
+                font-size: 0.9em;
+            }
+
+            .featured-post {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="/">
-                    <img src="/assets/images/logo.png" alt="AxiaAnalytics">
+                    <img src="/assets/images/logo.png" alt="AxiaAnalytics Logo">
                 </a>
             </div>
             <ul class="nav-menu">
@@ -37,39 +418,278 @@
         </div>
     </nav>
 
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <div class="container">
+            <h1>AI & Data Analytics Blog</h1>
+            <p>Expert insights, practical guides, and case studies from Africa's leading AI firm</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
     <main>
-        <section class="blog-hero">
-            <div class="container">
-                <h1>AI & Data Analytics Blog</h1>
-                <p>Stay updated with the latest insights and trends</p>
-            </div>
-        </section>
+        <div class="container">
+            <!-- Featured Post -->
+            <section class="featured-post">
+                <div class="featured-post-image">📊</div>
+                <div class="featured-post-content">
+                    <div class="featured-post-meta">
+                        <span>📅 May 25, 2026</span>
+                        <span>⏱️ 8 min read</span>
+                        <span>🔥 Featured</span>
+                    </div>
+                    <h2>The Complete Guide to AI Consulting in Nairobi</h2>
+                    <p>Everything you need to know about AI consulting services in Nairobi. Learn what AI consultants do, how to choose the right firm, what to expect from implementation, and real ROI from Kenyan companies.</p>
+                    <p>This comprehensive guide breaks down the AI consulting landscape, from initial assessment through successful deployment.</p>
+                    <a href="/blog/ai-consulting-nairobi-guide.html" class="btn">Read Full Article →</a>
+                </div>
+            </section>
 
-        <section class="blog-posts">
-            <div class="container">
-                <article class="blog-card">
-                    <h2><a href="/blog/ai-consulting-nairobi-guide.html">The Complete Guide to AI Consulting in Nairobi</a></h2>
-                    <p class="meta">Published on May 25, 2026 | 5 min read</p>
-                    <p>Comprehensive guide covering everything you need to know about AI consulting services in Nairobi...</p>
-                    <a href="/blog/ai-consulting-nairobi-guide.html" class="read-more">Read More →</a>
-                </article>
+            <!-- Blog Posts Grid -->
+            <section>
+                <h2>Latest Articles</h2>
+                
+                <div class="blog-filters">
+                    <button class="filter-btn active">All Articles</button>
+                    <button class="filter-btn">AI Strategy</button>
+                    <button class="filter-btn">Machine Learning</button>
+                    <button class="filter-btn">Data Engineering</button>
+                    <button class="filter-btn">Business Intelligence</button>
+                </div>
 
-                <article class="blog-card">
-                    <h2><a href="/blog/10-ways-ai-transforms-kenyan-businesses.html">10 Ways AI Can Transform Small Businesses in Kenya</a></h2>
-                    <p class="meta">Published on May 23, 2026 | 8 min read</p>
-                    <p>Discover how AI is revolutionizing businesses across Kenya and which implementations can benefit you...</p>
-                    <a href="/blog/10-ways-ai-transforms-kenyan-businesses.html" class="read-more">Read More →</a>
-                </article>
+                <div class="blog-grid">
+                    <!-- Post 1 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">🤖</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">AI Strategy</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 23, 2026</span>
+                                <span class="blog-reading-time">⏱️ 5 min</span>
+                            </div>
+                            <h3>10 Ways AI Can Transform Small Businesses in Kenya</h3>
+                            <p>Discover practical, cost-effective AI implementations that small and medium businesses across Kenya can implement today. Real examples from Kenyan companies.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">AI</a>
+                                <a href="#" class="blog-tag">SME</a>
+                                <a href="#" class="blog-tag">Kenya</a>
+                            </div>
+                            <a href="/blog/10-ways-ai-transforms-kenyan-businesses.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
 
-                <!-- Add more blog posts -->
-            </div>
-        </section>
+                    <!-- Post 2 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">📈</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Data Analytics</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 20, 2026</span>
+                                <span class="blog-reading-time">⏱️ 8 min</span>
+                            </div>
+                            <h3>Data Analytics for Kenyan Businesses: Ultimate 2026 Guide</h3>
+                            <p>A comprehensive guide covering everything from basic concepts to advanced implementation. Learn how Kenyan enterprises use data to drive decisions.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Analytics</a>
+                                <a href="#" class="blog-tag">Data</a>
+                                <a href="#" class="blog-tag">Guide</a>
+                            </div>
+                            <a href="/blog/data-analytics-kenya-guide.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 3 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">🎯</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">AI Strategy</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 18, 2026</span>
+                                <span class="blog-reading-time">⏱️ 6 min</span>
+                            </div>
+                            <h3>How to Choose an AI Consulting Firm in Nairobi</h3>
+                            <p>A practical 12-point checklist to evaluate AI consulting firms. Learn what questions to ask, red flags to watch, and how to assess fit for your organization.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Consulting</a>
+                                <a href="#" class="blog-tag">Selection</a>
+                                <a href="#" class="blog-tag">Nairobi</a>
+                            </div>
+                            <a href="/blog/choose-ai-consultant.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 4 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">💰</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">ROI & Economics</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 15, 2026</span>
+                                <span class="blog-reading-time">⏱️ 7 min</span>
+                            </div>
+                            <h3>ROI of AI Implementation: Real Numbers from Kenyan Companies</h3>
+                            <p>Concrete examples of AI ROI from actual Kenyan businesses. See industry-specific benchmarks, timelines to profitability, and factors affecting returns.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">ROI</a>
+                                <a href="#" class="blog-tag">Case Study</a>
+                                <a href="#" class="blog-tag">Kenya</a>
+                            </div>
+                            <a href="/blog/ai-roi-kenya.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 5 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">🏥</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Industry Specific</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 12, 2026</span>
+                                <span class="blog-reading-time">⏱️ 6 min</span>
+                            </div>
+                            <h3>AI in Healthcare Kenya: Transforming Medical Services</h3>
+                            <p>How Kenyan hospitals and healthcare providers use AI for diagnostics, operations optimization, and patient care. Current landscape and future opportunities.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Healthcare</a>
+                                <a href="#" class="blog-tag">AI</a>
+                                <a href="#" class="blog-tag">Kenya</a>
+                            </div>
+                            <a href="/blog/ai-healthcare-kenya.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 6 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">🏦</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Finance</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 10, 2026</span>
+                                <span class="blog-reading-time">⏱️ 7 min</span>
+                            </div>
+                            <h3>Fraud Detection in East African Banking: ML Solutions</h3>
+                            <p>How machine learning catches fraud in real-time. Technical approaches, regulatory compliance, and proven ROI from East African banks.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Finance</a>
+                                <a href="#" class="blog-tag">ML</a>
+                                <a href="#" class="blog-tag">Security</a>
+                            </div>
+                            <a href="/blog/fraud-detection-banking.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 7 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">🚚</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Logistics</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 8, 2026</span>
+                                <span class="blog-reading-time">⏱️ 6 min</span>
+                            </div>
+                            <h3>Supply Chain Optimization Using AI: A Kenyan Guide</h3>
+                            <p>Practical AI applications for logistics optimization. Route planning, demand forecasting, warehouse automation - with Kenyan logistics case study.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Logistics</a>
+                                <a href="#" class="blog-tag">Optimization</a>
+                                <a href="#" class="blog-tag">Supply Chain</a>
+                            </div>
+                            <a href="/blog/supply-chain-optimization.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 8 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">💻</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Technical</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 5, 2026</span>
+                                <span class="blog-reading-time">⏱️ 9 min</span>
+                            </div>
+                            <h3>Building Your First ML Model: Step-by-Step Guide</h3>
+                            <p>A practical, hands-on guide to building machine learning models. From problem definition through deployment, with Python code examples.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">ML</a>
+                                <a href="#" class="blog-tag">Tutorial</a>
+                                <a href="#" class="blog-tag">Python</a>
+                            </div>
+                            <a href="/blog/build-ml-model.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Post 9 -->
+                    <div class="blog-card">
+                        <div class="blog-card-image">☁️</div>
+                        <div class="blog-card-content">
+                            <span class="blog-category">Cloud & Infrastructure</span>
+                            <div class="blog-meta">
+                                <span class="blog-date">📅 May 3, 2026</span>
+                                <span class="blog-reading-time">⏱️ 7 min</span>
+                            </div>
+                            <h3>Cloud Migration for Kenyan Businesses: AWS vs Azure vs GCP</h3>
+                            <p>Complete comparison of cloud platforms. Feature analysis, pricing breakdown, and which is best for different business types in Kenya.</p>
+                            <div class="blog-tags">
+                                <a href="#" class="blog-tag">Cloud</a>
+                                <a href="#" class="blog-tag">AWS</a>
+                                <a href="#" class="blog-tag">Azure</a>
+                            </div>
+                            <a href="/blog/cloud-migration-comparison.html" class="read-more">Read Article →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter CTA -->
+            <section style="background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%); color: white; padding: 60px 40px; border-radius: 12px; text-align: center;">
+                <h2 style="color: white; margin-bottom: 20px;">Stay Updated with AI & Data Insights</h2>
+                <p style="font-size: 1.1em; margin-bottom: 30px; opacity: 0.95;">Get the latest articles, case studies, and practical guides delivered to your inbox every week.</p>
+                <form style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto; flex-wrap: wrap; justify-content: center;">
+                    <input type="email" placeholder="Enter your email" style="flex: 1; min-width: 200px; padding: 12px 20px; border: none; border-radius: 5px; font-size: 1em;">
+                    <button type="submit" class="btn" style="background: white; color: #0066cc; font-weight: 700; border: none; cursor: pointer;">Subscribe</button>
+                </form>
+                <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.85;">We respect your privacy. Unsubscribe anytime.</p>
+            </section>
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <!-- Footer content -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AxiaAnalytics</h4>
+                    <p>Transforming businesses with AI and data analytics solutions across East Africa.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/services.html#ai-consulting">AI Consultation</a></li>
+                        <li><a href="/services.html#ml-solutions">AI Solutions</a></li>
+                        <li><a href="/services.html#data-engineering">Data Engineering</a></li>
+                        <li><a href="/services.html#business-intelligence">Business Intelligence</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Nairobi, Kenya</p>
+                    <p>📞 <a href="tel:+254728702495">+254 728 702 495</a></p>
+                    <p>📧 <a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AxiaAnalytics. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-
-    <script src="/assets/js/main.js"></script>
 </body>
 </html>
