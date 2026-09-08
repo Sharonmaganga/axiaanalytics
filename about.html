@@ -1,547 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>About AxiaAnalytics - Expert AI Team in Nairobi, Kenya</title>
-    <meta name="description" content="Meet the AxiaAnalytics team. Expert AI consultants and data scientists serving East Africa. Learn about our mission to democratize AI across African businesses.">
-    <meta name="keywords" content="AxiaAnalytics team, AI experts Nairobi, data scientists Kenya">
-    
-    <link rel="canonical" href="https://axiaanalytics.com/about.html">
-    
-    <meta property="og:title" content="About AxiaAnalytics - Expert AI Team">
-    <meta property="og:url" content="https://axiaanalytics.com/about.html">
-    <meta property="og:description" content="Meet the team transforming African businesses with AI and data analytics.">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/images/logo.png">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<title>About Axia Analytics — AI &amp; Data Consultancy in Nairobi, Kenya</title>
+<meta name="description" content="Axia Analytics is an AI and data consultancy based in Nairobi, Kenya, led by Sharon Maganga. We believe technology should make organisations smarter.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://axiaanalytics.com/about.html">
+<meta property="og:title" content="About Axia Analytics">
+<meta property="og:url" content="https://axiaanalytics.com/about.html">
+<meta property="og:description" content="An AI and data consultancy built in Africa, designed for the world.">
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
+<link rel="stylesheet" href="/assets/css/main.css">
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Navigation */
-        .navbar {
-            background: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-        }
-
-        .logo img {
-            height: 40px;
-            width: auto;
-        }
-
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-        }
-
-        .nav-menu a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .nav-menu a:hover {
-            color: #0066cc;
-        }
-
-        .cta-btn {
-            background: #0066cc;
-            color: white !important;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .cta-btn:hover {
-            background: #0052a3;
-        }
-
-        /* Hero Section */
-        .page-hero {
-            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-
-        .page-hero h1 {
-            font-size: 2.5em;
-            margin-bottom: 15px;
-        }
-
-        .page-hero p {
-            font-size: 1.1em;
-            opacity: 0.95;
-        }
-
-        /* Main Content */
-        main {
-            padding: 60px 20px;
-        }
-
-        section {
-            margin-bottom: 60px;
-        }
-
-        h2 {
-            font-size: 2em;
-            margin-bottom: 30px;
-            color: #0066cc;
-        }
-
-        h3 {
-            font-size: 1.5em;
-            margin: 30px 0 15px 0;
-            color: #333;
-        }
-
-        p {
-            margin-bottom: 20px;
-            line-height: 1.8;
-        }
-
-        /* Values Grid */
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-
-        .value-card {
-            padding: 30px;
-            background: #f9f9f9;
-            border-left: 4px solid #0066cc;
-            border-radius: 8px;
-            transition: all 0.3s;
-        }
-
-        .value-card:hover {
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            transform: translateY(-5px);
-        }
-
-        .value-card h3 {
-            color: #0066cc;
-            margin-top: 0;
-        }
-
-        /* Stats Section */
-        .stats {
-            background: #f5f5f5;
-            padding: 40px;
-            border-radius: 12px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 40px;
-            text-align: center;
-            margin: 40px 0;
-        }
-
-        .stat-item h3 {
-            font-size: 2.5em;
-            color: #0066cc;
-            margin-bottom: 10px;
-        }
-
-        .stat-item p {
-            color: #666;
-            margin: 0;
-        }
-
-        /* Team Section */
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 40px;
-            margin: 40px 0;
-        }
-
-        .team-member {
-            text-align: center;
-            padding: 20px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            transition: all 0.3s;
-        }
-
-        .team-member:hover {
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            transform: translateY(-5px);
-        }
-
-        .team-member-image {
-            width: 120px;
-            height: 120px;
-            background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
-            border-radius: 50%;
-            margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 3em;
-        }
-
-        .team-member h3 {
-            margin-top: 0;
-            color: #333;
-        }
-
-        .team-member-role {
-            color: #0066cc;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .team-member p {
-            color: #666;
-            font-size: 0.95em;
-            margin-bottom: 10px;
-        }
-
-        /* Buttons */
-        .btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: #0066cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: 600;
-            transition: background 0.3s;
-            border: none;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            background: #0052a3;
-        }
-
-        /* Footer */
-        .footer {
-            background: #1a1a1a;
-            color: white;
-            padding: 40px 20px 20px;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-bottom: 30px;
-        }
-
-        .footer-section h4 {
-            margin-bottom: 15px;
-            color: white;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin-bottom: 8px;
-        }
-
-        .footer-section a {
-            color: #ccc;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-section a:hover {
-            color: white;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid #444;
-            padding-top: 20px;
-            text-align: center;
-            color: #999;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .page-hero h1 {
-                font-size: 1.8em;
-            }
-
-            .nav-menu {
-                gap: 15px;
-                font-size: 0.9em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-
-            .values-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .team-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="/">
-                    <img src="/assets/images/logo.png" alt="AxiaAnalytics Logo">
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/services.html">Services</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/contact.html" class="cta-btn">Get Started</a></li>
-            </ul>
-        </div>
-    </nav>
+<a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Page Hero -->
-    <div class="page-hero">
-        <div class="container">
-            <h1>About AxiaAnalytics</h1>
-            <p>Building Africa's AI-driven future through innovation and expertise</p>
-        </div>
+<nav class="nav" aria-label="Primary">
+  <div class="container">
+    <a class="nav-mark" href="/"><span class="dot"></span>AXIA ANALYTICS</a>
+    <ul class="nav-links">
+      <li><a href="/#capabilities">Solutions</a></li>
+      <li><a href="/#industries">Industries</a></li>
+      <li><a href="/#work">Our Work</a></li>
+      <li><a href="/blog/">Insights</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="/contact.html">Start a Conversation</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
+  </div>
+</nav>
 
-    <!-- Main Content -->
-    <main>
-        <div class="container">
-            <!-- Our Story -->
-            <section>
-                <h2>Our Story</h2>
-                <p>AxiaAnalytics was founded with a vision to democratize AI and data analytics for businesses across Africa. We recognized that transformative technology shouldn't be exclusive to large corporations with unlimited budgets. Our mission: make cutting-edge AI accessible, practical, and impactful for every business size.</p>
-                
-                <p>Based in Nairobi, Kenya, we started with a simple observation: African businesses were sitting on goldmines of data but lacked the tools and expertise to unlock their value. Today, we're at the forefront of Africa's AI revolution, helping organizations across East Africa leverage technology to achieve unprecedented growth, efficiency, and competitive advantage.</p>
-                
-                <p>What began as a small team of passionate data scientists has grown into a trusted partner for 50+ enterprises across finance, healthcare, logistics, manufacturing, retail, and energy sectors. Our track record speaks for itself: 100+ successful projects with a 95% client satisfaction rate.</p>
-            </section>
+<main id="main">
 
-            <!-- Our Mission & Vision -->
-            <section>
-                <div class="stats">
-                    <div class="stat-item">
-                        <h3>Our Mission</h3>
-                        <p>To empower African businesses with cutting-edge AI and data analytics solutions that drive measurable business results and sustainable growth.</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>Our Vision</h3>
-                        <p>To be the most trusted and innovative AI consulting partner across East Africa, recognized for delivering transformative technology solutions.</p>
-                    </div>
-                </div>
-            </section>
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">About Axia</span>
+      <h1>We believe technology should make organisations smarter.</h1>
+      <p>Axia Analytics is an AI and data consultancy based in Nairobi, Kenya, helping organisations across Africa turn fragmented data into intelligence — and intelligence into action.</p>
+    </div>
+  </section>
 
-            <!-- Our Values -->
-            <section>
-                <h2>Our Core Values</h2>
-                <div class="values-grid">
-                    <div class="value-card">
-                        <h3>🎯 Excellence</h3>
-                        <p>We're obsessed with delivering quality solutions that exceed expectations. Every project, every interaction, every deliverable reflects our commitment to excellence.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>🤝 Integrity</h3>
-                        <p>Transparency and ethical practices guide every decision we make. We believe in honest communication and doing the right thing, even when it's difficult.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>⚡ Innovation</h3>
-                        <p>We continuously explore new technologies, methodologies, and approaches. Staying ahead of the curve enables us to deliver cutting-edge solutions.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>📈 Impact</h3>
-                        <p>We're focused on delivering measurable business outcomes. Success means your business grows, your operations improve, and your competitive advantage strengthens.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>🌍 Community</h3>
-                        <p>We're passionate about supporting Africa's tech ecosystem. Through training, mentorship, and partnerships, we're helping build the next generation of data professionals.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>🔬 Research</h3>
-                        <p>We invest in staying current with the latest AI research and industry developments. Knowledge compounds over time, and we're committed to continuous learning.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- By The Numbers -->
-            <section>
-                <h2>By The Numbers</h2>
-                <div class="stats">
-                    <div class="stat-item">
-                        <h3>100+</h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>50+</h3>
-                        <p>Enterprise Clients</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>95%</h3>
-                        <p>Client Satisfaction</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>6+</h3>
-                        <p>Industries Served</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Our Team -->
-            <section>
-                <h2>Meet Our Team</h2>
-                <p>Our team is composed of seasoned AI consultants, data scientists, engineers, and strategists with deep expertise in building enterprise solutions. We bring together diverse backgrounds, experiences, and perspectives to solve complex business challenges.</p>
-                
-                <div class="team-grid">
-                    <div class="team-member">
-                        <div class="team-member-image">👨‍💼</div>
-                        <h3>John Kamau</h3>
-                        <div class="team-member-role">Founder & Lead AI Consultant</div>
-                        <p>10+ years of experience in machine learning and AI strategy. Previously led AI initiatives at major tech companies across Africa. MBA from Strathmore University.</p>
-                    </div>
-                    <div class="team-member">
-                        <div class="team-member-image">👩‍💻</div>
-                        <h3>Sarah Kipchoge</h3>
-                        <div class="team-member-role">Lead Data Scientist</div>
-                        <p>PhD in Computer Science. Specializes in building predictive models and machine learning pipelines. Published researcher in AI and data science fields.</p>
-                    </div>
-                    <div class="team-member">
-                        <div class="team-member-image">👨‍🔬</div>
-                        <h3>David Okonkwo</h3>
-                        <div class="team-member-role">Solutions Architect</div>
-                        <p>8+ years building scalable data infrastructure. AWS Solutions Architect. Expert in cloud architecture and enterprise AI implementation.</p>
-                    </div>
-                    <div class="team-member">
-                        <div class="team-member-image">👩‍💼</div>
-                        <h3>Grace Mwangi</h3>
-                        <div class="team-member-role">Project Manager & Account Lead</div>
-                        <p>5+ years managing complex projects. Certified PMP. Ensures seamless collaboration and delivery of all client engagements.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Why Choose Us -->
-            <section>
-                <h2>Why Choose AxiaAnalytics?</h2>
-                <div class="values-grid">
-                    <div class="value-card">
-                        <h3>Local Expertise</h3>
-                        <p>We understand the African market, challenges, and opportunities. Our solutions are tailored to your specific context and market dynamics.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Global Standards</h3>
-                        <p>While local in our thinking, we maintain international best practices. Our solutions meet global standards for quality, security, and scalability.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>End-to-End Support</h3>
-                        <p>From strategy and consultation to implementation and maintenance. We're with you every step of the way.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Proven Track Record</h3>
-                        <p>100+ successful projects across multiple industries. Our clients see real results within measurable timeframes.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Affordable Solutions</h3>
-                        <p>Enterprise-grade AI without enterprise-level price tags. We believe quality AI should be accessible to businesses of all sizes.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>24/7 Support</h3>
-                        <p>Your success is our priority. We provide ongoing support, monitoring, and optimization for all deployed solutions.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CTA -->
-            <section style="text-align: center; background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%); color: white; padding: 60px 40px; border-radius: 12px;">
-                <h2 style="color: white;">Ready to Transform Your Business?</h2>
-                <p style="font-size: 1.1em; margin-bottom: 30px;">Let's discuss how AI and data analytics can drive your next breakthrough</p>
-                <a href="/contact.html" class="btn">Schedule a Free Consultation</a>
-            </section>
+  <!-- ============ STORY / BELIEFS ============ -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="belief-list">
+        <div class="belief-row reveal">
+          <h4>WHY AXIA EXISTS</h4>
+          <p>Most African organisations already have the data they need — in spreadsheets, ERPs, CRMs and documents. What's missing isn't more technology. It's the ability to turn that information into decisions. Axia exists to close that gap.</p>
         </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>AxiaAnalytics</h4>
-                    <p>Transforming businesses with AI and data analytics solutions across East Africa.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="/services.html#ai-consulting">AI Consultation</a></li>
-                        <li><a href="/services.html#ml-solutions">AI Solutions</a></li>
-                        <li><a href="/services.html#data-engineering">Data Engineering</a></li>
-                        <li><a href="/services.html#business-intelligence">Business Intelligence</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about.html">About Us</a></li>
-                        <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>📍 Nairobi, Kenya</p>
-                    <p>📞 <a href="tel:+254728702495">+254 728 702 495</a></p>
-                    <p>📧 <a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 AxiaAnalytics. All rights reserved.</p>
-            </div>
+        <div class="belief-row reveal">
+          <h4>WHAT AXIA BELIEVES</h4>
+          <p>AI is only valuable when it's pointed at a real business problem. We'd rather build one automation that saves a team ten hours a week than ship an AI feature that looks impressive in a demo and gets ignored afterwards.</p>
         </div>
-    </footer>
+        <div class="belief-row reveal">
+          <h4>HOW AXIA WORKS</h4>
+          <p>We work the way a strategy consultancy thinks and a data engineering team builds: understand the problem first, then design the architecture, then implement it properly — with a human kept in the loop wherever a decision actually matters.</p>
+        </div>
+        <div class="belief-row reveal">
+          <h4>WHY AFRICA MATTERS</h4>
+          <p>Fragmented systems, evolving infrastructure and the need to prove ROI on every shilling spent aren't edge cases here — they're the starting conditions. Building for that environment first makes the work more resilient everywhere else, too.</p>
+        </div>
+        <div class="belief-row reveal">
+          <h4>WHAT MAKES AXIA DIFFERENT</h4>
+          <p>We're small enough to stay close to the work and senior enough to lead it end to end — from the first diagnosis to the system running unattended in production.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION / VISION ============ -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="grid-2">
+        <div class="reveal">
+          <span class="eyebrow">Mission</span>
+          <h2 style="margin-top:16px;font-size:clamp(26px,3.4vw,38px);color:var(--bg);max-width:16ch;">Make AI and data practically useful for African organisations of every size.</h2>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow">Vision</span>
+          <h2 style="margin-top:16px;font-size:clamp(26px,3.4vw,38px);color:var(--bg);max-width:18ch;">To be a trusted AI &amp; data partner across East Africa — judged on outcomes, not buzzwords.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VALUES ============ -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">How we operate</span>
+      <h2 style="margin-top:16px;font-size:clamp(28px,4vw,44px);">Our core values.</h2>
+      <div class="value-grid">
+        <div class="value-card reveal"><div class="v-num">01</div><h4>Excellence</h4><p>Quality solutions that hold up after the demo is over.</p></div>
+        <div class="value-card reveal"><div class="v-num">02</div><h4>Integrity</h4><p>Transparent, honest communication — including about what won't work.</p></div>
+        <div class="value-card reveal"><div class="v-num">03</div><h4>Innovation</h4><p>Continuously exploring new methods without chasing every trend.</p></div>
+        <div class="value-card reveal"><div class="v-num">04</div><h4>Impact</h4><p>Success is measured in your outcomes, not our deliverables.</p></div>
+        <div class="value-card reveal"><div class="v-num">05</div><h4>Community</h4><p>Supporting Africa's data and AI talent through training and mentorship.</p></div>
+        <div class="value-card reveal"><div class="v-num">06</div><h4>Research</h4><p>Staying current with the field so our advice doesn't age badly.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section class="section section-bg2">
+    <div class="container">
+      <span class="eyebrow">Leadership</span>
+      <h2 style="margin-top:16px;font-size:clamp(28px,4vw,44px);">The person behind Axia.</h2>
+      <div class="founder-wrap">
+        <div class="founder-portrait" aria-hidden="true">SM</div>
+        <div>
+          <div class="founder-name">Sharon Maganga</div>
+          <div class="founder-role">Founder &amp; CEO, Axia Analytics</div>
+          <div class="founder-bio">
+            <p>Sharon is an AI strategist and certified AI consultant, and the author of three books on AI. She speaks internationally on AI strategy and practical adoption, and leads Axia's work with clients across Kenya and East Africa.</p>
+            <p>Her focus is on making AI and automation genuinely useful for African professionals and SMEs — not just for organisations with enterprise-sized budgets.</p>
+          </div>
+          <div class="founder-tags">
+            <span class="cap-tag">AI Strategy</span>
+            <span class="cap-tag">Business Automation</span>
+            <span class="cap-tag">Professional Development</span>
+            <span class="cap-tag">Keynote Speaking</span>
+          </div>
+          <div class="team-note">Axia's team is growing alongside its client base. As new consultants and engineers join, they'll be introduced here.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="section section-dark final-cta">
+    <div class="container">
+      <h2>There is probably more value hiding in your data.</h2>
+      <p>Tell us what you're trying to improve. We'll help you identify where AI, data or automation can create measurable value.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-on-dark" href="/contact.html">Start a Conversation →</a>
+        <a class="btn btn-ghost-dark" href="/services.html">View Our Capabilities</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="nav-mark" href="/"><span class="dot"></span>AXIA ANALYTICS</a>
+        <p>AI, data and automation for organisations ready to operate smarter.</p>
+      </div>
+      <div class="footer-col">
+        <h5>SOLUTIONS</h5>
+        <ul>
+          <li><a href="/services.html#ai-strategy">AI Strategy</a></li>
+          <li><a href="/services.html#data-analytics">Data &amp; Analytics</a></li>
+          <li><a href="/services.html#data-engineering">Data Engineering</a></li>
+          <li><a href="/services.html#automation">Automation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>INDUSTRIES</h5>
+        <ul>
+          <li><a href="/#industries">Financial Services</a></li>
+          <li><a href="/#industries">SACCOs &amp; Cooperatives</a></li>
+          <li><a href="/#industries">Healthcare</a></li>
+          <li><a href="/#industries">Retail &amp; FMCG</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>COMPANY</h5>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/blog/">Insights</a></li>
+          <li><a href="/case-studies/index.html">Case Studies</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>CONTACT</h5>
+        <ul>
+          <li>Nairobi, Kenya</li>
+          <li><a href="tel:+254728702495">+254 728 702 495</a></li>
+          <li><a href="mailto:Axiaanalyticsglobal@gmail.com">Axiaanalyticsglobal@gmail.com</a></li>
+          <li><a href="https://linkedin.com/company/AxiaAnalytics">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Axia Analytics. All rights reserved.</span>
+      <span>Nairobi, Kenya · Serving Africa &amp; global clients</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
